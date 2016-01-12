@@ -2,7 +2,7 @@
 
 if(!isset($playlist))
 {
-	$playlist = "{'title':'larkspur','url':''}";
+	$playlist = "{'title':'','url':''}";
 }
 
 //define
