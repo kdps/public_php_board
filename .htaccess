@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^([a-zA-Z0-9_]+)/?$ ./index.php?bd=$1 [L,QSA]
+RewriteRule ^([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)/([0-9]+)/([0-9]+)$ ./index.php?bd=$1&act=$2&page=$3&srl=$4 [L,QSA]
